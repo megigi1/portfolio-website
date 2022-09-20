@@ -1,0 +1,205 @@
+.rounded {
+    border-radius: 50%;
+    padding: 5px;
+    width: 250px;
+    border: 1px solid #DE4E6B;
+}
+
+
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  text-color: #F52F63;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+  text-color : #F52F63;
+}
+
+p {
+  color: #F5AB33;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #F5AB33;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections   */
+
+.colored-section {
+  color: #F52F63;
+  background-color: #7F78DF;
+}
+
+.white-section {
+  background-color: #fff;
+  text-align: center;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+  color: #F5AB33;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #F5AB33;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  color: #F52F63;
+}
+
+
+
+/* Title Section   background-color: #ff4c68;*/
+
+#title {
+
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  color: #F5AB33;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #7F78DF;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #F52F63;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+.bg-image {
+    background-size: contain, cover;
+    background-repeat: no-repeat;
+    position: right;
+}
+
+
+.opinion {
+    color: #F52F63;
+}
+
+a:link {
+    color: #F52F63;
+}
+
+a:visited {
+   color: #F5AB33;
+}
+
+.about {
+    color: #F52F63;
+}
+
+.click_here {
+  background-color:orange;
+}
+
+.click_here:hover{background-color:orange;}
+
+.click_here:focus{background-color:red;}
+
+
+.subheading {
+    color: #7F78DF;
+}
+
+.social-icon {
+    color: #7F78DF;
+}

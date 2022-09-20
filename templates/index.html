@@ -1,0 +1,50 @@
+{% include "header.html" %}
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+    <h2 class="opinion"><a  href="{{ url_for('about') }}"> About me</a> | <a  href="{{ url_for('contact') }}"> Contact </a> </h2>
+    <p>My name is Magdalena Uchman and I am Python developer.</p>
+    <img class="rounded" src="static/images/my_picture.jpg" alt="iphone-mockup">
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+
+        <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <h3 class="feature-title">Morse-Word-Translator</h3>
+          <p>This project is about converting words to Morse Code.</p>
+          <button onclick="location.href='https://github.com/megigi1/morse-code'" type="button" class="click_here">
+         Click and check!</button>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <h3 class="feature-title">Second Project</h3>
+          <p>***</p>
+          <button class="click_here">Click and check!</button>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <h3 class="feature-title">Third Project</h3>
+          <p>***</p>
+          <button class="click_here">Click and check!</button>
+        </div>
+      </div>
+
+
+    </div>
+
+      <nav class="navbar navbar-expand-lg navbar-dark"><a class="more" href="{{ url_for('projects') }}"> More Projects </a> </nav>
+
+  </section>
+
+{% include "footer.html" %}
+
+
+
+
